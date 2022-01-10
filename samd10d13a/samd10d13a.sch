@@ -168,17 +168,6 @@ F 3 "" H 9125 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L asmr-kicad:NJM2866F U1
-U 1 1 61A6DC45
-P 4900 1650
-F 0 "U1" V 4500 1500 50  0000 L CNN
-F 1 "NJM2866F" V 4600 1500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4950 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/294/njrcs02939_1-2279198.pdf" H 4950 1600 50  0001 C CNN
-	1    4900 1650
-	0    1    1    0   
-$EndComp
-$Comp
 L power:VDD #PWR05
 U 1 1 61A8B293
 P 3950 1500
@@ -716,7 +705,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 6025 5525 6025
 Text Notes 10600 7650 0    89   ~ 18
-v1
+v2
 Text Notes 7325 7525 0    89   Italic 18
 Dinky Pipsqueek But Cute & Help Me Test
 Text Notes 7875 7125 0    89   Italic 0
@@ -5447,4 +5436,15 @@ Wire Wire Line
 	5150 6050 5150 6175
 Wire Wire Line
 	5150 6175 5525 6175
+$Comp
+L asmr-kicad:NJM2866F33 U1
+U 1 1 61DD37F2
+P 4900 1650
+F 0 "U1" V 4485 1675 50  0000 C CNN
+F 1 "NJM2866F33" V 4576 1675 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4950 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/294/njrcs02939_1-2279198.pdf" H 4950 1600 50  0001 C CNN
+	1    4900 1650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -168,17 +168,6 @@ F 3 "" H 9125 5725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L asmr-kicad:NJM2866F U1
-U 1 1 61A6DC45
-P 4900 1650
-F 0 "U1" V 4500 1500 50  0000 L CNN
-F 1 "NJM2866F" V 4600 1500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4950 1200 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/294/njrcs02939_1-2279198.pdf" H 4950 1600 50  0001 C CNN
-	1    4900 1650
-	0    1    1    0   
-$EndComp
-$Comp
 L power:VDD #PWR05
 U 1 1 61A8B293
 P 3950 1500
@@ -5429,12 +5418,12 @@ Wire Notes Line
 Wire Notes Line style solid rgb(255, 0, 255)
 	4325 5350 4325 6000
 $Comp
-L Connector:Conn_01x07_Male J?
+L Connector:Conn_01x07_Male J3
 U 1 1 61B40BC6
 P 4250 5750
-F 0 "J?" H 4225 6275 50  0000 C CNN
+F 0 "J3" H 4225 6275 50  0000 C CNN
 F 1 "Conn_01x07_Male" H 4275 6200 50  0000 C CNN
-F 2 "" H 4250 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 4250 5750 50  0001 C CNN
 F 3 "~" H 4250 5750 50  0001 C CNN
 	1    4250 5750
 	1    0    0    -1  
@@ -5447,4 +5436,15 @@ Wire Wire Line
 	5150 6050 5150 6175
 Wire Wire Line
 	5150 6175 5525 6175
+$Comp
+L asmr-kicad:NJM2866F33 U1
+U 1 1 61DD37F2
+P 4900 1650
+F 0 "U1" V 4485 1675 50  0000 C CNN
+F 1 "NJM2866F33" V 4576 1675 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4950 1200 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/294/njrcs02939_1-2279198.pdf" H 4950 1600 50  0001 C CNN
+	1    4900 1650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -41,6 +41,7 @@ Pin 58 (PA31) has SWDIO
 ## Power Supply Considerations
 On page 2097 of the SAMD51 Data sheet, there is a schematic checklist and it shows schematics for the power supply pins.
 We want Linear Mode only, so thats what we will model it after.
+It looks like they include an inductor for doing some power supply filtering. In the schematics for other samd51 boards it says "FB - 30 Ohms" above the inductor. It seems that this means "Ferrite Beads" which are often used for power supplying filtering, they act like inductors (see org notes on ferrite beads).
 
 ## Clocks
 it is recommended to use an external crystal oscillator since it is more accurate than the internal RC oscillator. It seems like you can provide an external 32K crystal oscillator which can then drive the DFLL or DPLL to achieve higher clock speeds up to 120Mhz.

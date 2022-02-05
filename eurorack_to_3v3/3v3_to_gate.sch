@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "Big One, Little One"
 Date ""
 Rev "1"
@@ -57,17 +57,6 @@ F 3 "~" H 3515 3345 50  0001 C CNN
 	1    3515 3345
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_US R1
-U 1 1 62507007
-P 3290 2495
-F 0 "R1" V 3085 2495 50  0000 C CNN
-F 1 "23K" V 3176 2495 50  0000 C CNN
-F 2 "" V 3330 2485 50  0001 C CNN
-F 3 "~" H 3290 2495 50  0001 C CNN
-	1    3290 2495
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3465 2495 3665 2495
 Wire Wire Line
@@ -91,7 +80,7 @@ Connection ~ 3515 3045
 Wire Wire Line
 	3515 3495 3515 3595
 Wire Wire Line
-	3140 2495 3015 2495
+	3165 2495 3015 2495
 Wire Wire Line
 	4715 2595 4790 2595
 $Comp
@@ -105,7 +94,7 @@ F 3 "" H 3515 3595 50  0001 C CNN
 	1    3515 3595
 	1    0    0    -1  
 $EndComp
-Text HLabel 3015 2495 0    50   Input Italic 0
+Text HLabel 3015 2495 0    50   Input ~ 0
 gate_1
 Text HLabel 4790 2595 2    50   Output Italic 0
 gate_out_1
@@ -138,10 +127,10 @@ Text Notes 4720 2420 0    50   Italic 0
 Text Notes 4720 2290 0    50   Italic 0
 8V
 $Comp
-L Device:Opamp_Quad_Generic U1
+L Device:Opamp_Quad_Generic U3
 U 3 1 6251FB19
 P 3965 4745
-F 0 "U1" H 3965 5112 50  0000 C CNN
+F 0 "U3" H 3965 5112 50  0000 C CNN
 F 1 "LM324" H 3965 5021 50  0000 C CNN
 F 2 "" H 3965 4745 50  0001 C CNN
 F 3 "~" H 3965 4745 50  0001 C CNN
@@ -184,12 +173,12 @@ $EndComp
 $Comp
 L Device:R_US R2
 U 1 1 6251FB31
-P 3290 4645
-F 0 "R2" V 3085 4645 50  0000 C CNN
-F 1 "23K" V 3176 4645 50  0000 C CNN
-F 2 "" V 3330 4635 50  0001 C CNN
-F 3 "~" H 3290 4645 50  0001 C CNN
-	1    3290 4645
+P 3315 4645
+F 0 "R2" V 3110 4645 50  0000 C CNN
+F 1 "23K" V 3201 4645 50  0000 C CNN
+F 2 "" V 3355 4635 50  0001 C CNN
+F 3 "~" H 3315 4645 50  0001 C CNN
+	1    3315 4645
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -215,7 +204,7 @@ Connection ~ 3515 5195
 Wire Wire Line
 	3515 5645 3515 5745
 Wire Wire Line
-	3140 4645 3015 4645
+	3165 4645 3015 4645
 Wire Wire Line
 	4715 4745 4790 4745
 $Comp
@@ -229,7 +218,7 @@ F 3 "" H 3515 5745 50  0001 C CNN
 	1    3515 5745
 	1    0    0    -1  
 $EndComp
-Text HLabel 3015 4645 0    50   Input Italic 0
+Text HLabel 3015 4645 0    50   3State Italic 0
 gate_3
 Text HLabel 4790 4745 2    50   Output Italic 0
 gate_out_3
@@ -262,10 +251,10 @@ Text Notes 4720 4570 0    50   Italic 0
 Text Notes 4720 4440 0    50   Italic 0
 8V
 $Comp
-L Device:Opamp_Quad_Generic U1
+L Device:Opamp_Quad_Generic U3
 U 2 1 62522467
 P 7875 2595
-F 0 "U1" H 7875 2962 50  0000 C CNN
+F 0 "U3" H 7875 2962 50  0000 C CNN
 F 1 "LM324" H 7875 2871 50  0000 C CNN
 F 2 "" H 7875 2595 50  0001 C CNN
 F 3 "~" H 7875 2595 50  0001 C CNN
@@ -308,12 +297,12 @@ $EndComp
 $Comp
 L Device:R_US R9
 U 1 1 6252247F
-P 7200 2495
-F 0 "R9" V 6995 2495 50  0000 C CNN
-F 1 "23K" V 7086 2495 50  0000 C CNN
-F 2 "" V 7240 2485 50  0001 C CNN
-F 3 "~" H 7200 2495 50  0001 C CNN
-	1    7200 2495
+P 7225 2495
+F 0 "R9" V 7020 2495 50  0000 C CNN
+F 1 "23K" V 7111 2495 50  0000 C CNN
+F 2 "" V 7265 2485 50  0001 C CNN
+F 3 "~" H 7225 2495 50  0001 C CNN
+	1    7225 2495
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -339,7 +328,7 @@ Connection ~ 7425 3045
 Wire Wire Line
 	7425 3495 7425 3595
 Wire Wire Line
-	7050 2495 6925 2495
+	7075 2495 6925 2495
 Wire Wire Line
 	8625 2595 8700 2595
 $Comp
@@ -353,7 +342,7 @@ F 3 "" H 7425 3595 50  0001 C CNN
 	1    7425 3595
 	1    0    0    -1  
 $EndComp
-Text HLabel 6925 2495 0    50   Input Italic 0
+Text HLabel 6925 2495 0    50   3State Italic 0
 gate_2
 Text HLabel 8700 2595 2    50   Output Italic 0
 gate_out_2
@@ -386,10 +375,10 @@ Text Notes 8630 2420 0    50   Italic 0
 Text Notes 8630 2290 0    50   Italic 0
 8V
 $Comp
-L Device:Opamp_Quad_Generic U1
+L Device:Opamp_Quad_Generic U3
 U 4 1 62526000
 P 7875 4745
-F 0 "U1" H 7875 5112 50  0000 C CNN
+F 0 "U3" H 7875 5112 50  0000 C CNN
 F 1 "LM324" H 7875 5021 50  0000 C CNN
 F 2 "" H 7875 4745 50  0001 C CNN
 F 3 "~" H 7875 4745 50  0001 C CNN
@@ -432,12 +421,12 @@ $EndComp
 $Comp
 L Device:R_US R10
 U 1 1 62526018
-P 7200 4645
-F 0 "R10" V 6995 4645 50  0000 C CNN
-F 1 "23K" V 7086 4645 50  0000 C CNN
-F 2 "" V 7240 4635 50  0001 C CNN
-F 3 "~" H 7200 4645 50  0001 C CNN
-	1    7200 4645
+P 7225 4645
+F 0 "R10" V 7020 4645 50  0000 C CNN
+F 1 "23K" V 7111 4645 50  0000 C CNN
+F 2 "" V 7265 4635 50  0001 C CNN
+F 3 "~" H 7225 4645 50  0001 C CNN
+	1    7225 4645
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -463,7 +452,7 @@ Connection ~ 7425 5195
 Wire Wire Line
 	7425 5645 7425 5745
 Wire Wire Line
-	7050 4645 6925 4645
+	7075 4645 6925 4645
 Wire Wire Line
 	8625 4745 8700 4745
 $Comp
@@ -477,7 +466,7 @@ F 3 "" H 7425 5745 50  0001 C CNN
 	1    7425 5745
 	1    0    0    -1  
 $EndComp
-Text HLabel 6925 4645 0    50   Input Italic 0
+Text HLabel 6925 4645 0    50   3State Italic 0
 gate_4
 Text HLabel 8700 4745 2    50   Output Italic 0
 gate_out_4
@@ -4714,4 +4703,17 @@ AF 36 66 5F F7 30 A2 75 84 F2 02 7B 08 21 50 B7 16 6C E8 BC 38 77 F4 FA E2 4C 50
 03 44 32 97 48 97 BF 80 04 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Notes 625  1100 0    50   ~ 0
+Simulation:\nhttps://tinyurl.com/y98ztonn
+$Comp
+L Device:R_US R1
+U 1 1 62507007
+P 3315 2495
+F 0 "R1" V 3110 2495 50  0000 C CNN
+F 1 "23K" V 3201 2495 50  0000 C CNN
+F 2 "" V 3355 2485 50  0001 C CNN
+F 3 "~" H 3315 2495 50  0001 C CNN
+	1    3315 2495
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

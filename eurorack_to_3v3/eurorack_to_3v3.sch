@@ -2159,13 +2159,13 @@ Wire Wire Line
 Wire Wire Line
 	2450 7300 2825 7300
 Text Label 4550 5550 0    50   ~ 0
-GATE_SERIAL_OUT
+POCI
 Text Label 3550 6750 2    50   ~ 0
-SHIFT_CLK
+SCK
 Text Label 3550 6550 2    50   ~ 0
 LOAD_GATES
 Text Label 3550 6850 2    50   ~ 0
-SHIFT_CLK_EN
+GATE_IN_EN
 NoConn ~ 3550 5550
 $Comp
 L power:+3.3V #PWR?
@@ -2425,5 +2425,253 @@ F 2 "" H 7550 5125 50  0001 C CNN
 F 3 "" H 7550 5125 50  0001 C CNN
 	1    7550 5125
 	1    0    0    -1  
+$EndComp
+$Comp
+L asmr-kicad:Conn_2x5_IDC_Pin_Box_Header_2.5mm J?
+U 1 1 621D4FAA
+P 8975 1400
+F 0 "J?" H 8975 1865 50  0000 C CNN
+F 1 "Brain Bus" H 8975 1774 50  0000 C CNN
+F 2 "" H 8975 1750 50  0001 C CNN
+F 3 "" H 8975 1750 50  0001 C CNN
+	1    8975 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 621DE7F7
+P 8600 1200
+F 0 "#PWR?" H 8600 1050 50  0001 C CNN
+F 1 "+3.3V" H 8615 1373 50  0000 C CNN
+F 2 "" H 8600 1200 50  0001 C CNN
+F 3 "" H 8600 1200 50  0001 C CNN
+	1    8600 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1200 8725 1200
+Wire Wire Line
+	9225 1200 9375 1200
+$Comp
+L power:GNDD #PWR?
+U 1 1 621E83DF
+P 9375 1200
+F 0 "#PWR?" H 9375 950 50  0001 C CNN
+F 1 "GNDD" H 9475 1075 50  0000 R CNN
+F 2 "" H 9375 1200 50  0001 C CNN
+F 3 "" H 9375 1200 50  0001 C CNN
+	1    9375 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8725 1300 8600 1300
+Wire Wire Line
+	8725 1400 8600 1400
+Wire Wire Line
+	8725 1500 8600 1500
+Wire Wire Line
+	9225 1300 9450 1300
+Wire Wire Line
+	9225 1400 9450 1400
+Wire Wire Line
+	9225 1500 9450 1500
+Wire Wire Line
+	8725 1600 8600 1600
+NoConn ~ 9225 1600
+Text Label 8600 1300 2    50   ~ 0
+SCK
+Text Label 8600 1400 2    50   ~ 0
+POCI
+Text Label 8600 1500 2    50   ~ 0
+PICO
+Text Label 8600 1600 2    50   ~ 0
+CS[0]
+Text Label 9450 1300 0    50   ~ 0
+CS[1]
+Text Label 9450 1400 0    50   ~ 0
+CS[2]
+Text Label 9450 1500 0    50   ~ 0
+LOAD_GATES
+$Comp
+L 74xx:74HC137 U?
+U 1 1 6223C8FD
+P 5900 4550
+F 0 "U?" H 5500 5200 50  0000 C CNN
+F 1 "74HC137" H 5600 5100 50  0000 C CNN
+F 2 "" H 5900 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 5900 4550 50  0001 C CNN
+	1    5900 4550
+	1    0    0    -1  
+$EndComp
+Text Label 5500 4250 2    50   ~ 0
+CS[1]
+Text Label 5500 4350 2    50   ~ 0
+CS[2]
+Text Label 5500 4150 2    50   ~ 0
+CS[0]
+Text Label 6300 4150 0    50   ~ 0
+ADC_EN
+Text Label 6300 4250 0    50   ~ 0
+DAC_EN
+Text Label 6300 4350 0    50   ~ 0
+GATE_IN_EN
+Text Label 6300 4450 0    50   ~ 0
+GATE_OUT_EN
+NoConn ~ 6300 4550
+NoConn ~ 6300 4675
+NoConn ~ 6300 4750
+NoConn ~ 6300 4850
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6228763B
+P 5900 3950
+F 0 "#PWR?" H 5900 3800 50  0001 C CNN
+F 1 "+3.3V" H 5915 4123 50  0000 C CNN
+F 2 "" H 5900 3950 50  0001 C CNN
+F 3 "" H 5900 3950 50  0001 C CNN
+	1    5900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 62287D0A
+P 5900 5050
+F 0 "#PWR?" H 5900 4800 50  0001 C CNN
+F 1 "GNDD" H 5904 4895 50  0000 C CNN
+F 2 "" H 5900 5050 50  0001 C CNN
+F 3 "" H 5900 5050 50  0001 C CNN
+	1    5900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 6228850E
+P 5250 5050
+F 0 "#PWR?" H 5250 4800 50  0001 C CNN
+F 1 "GNDD" H 5254 4895 50  0000 C CNN
+F 2 "" H 5250 5050 50  0001 C CNN
+F 3 "" H 5250 5050 50  0001 C CNN
+	1    5250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 5050 5250 4750
+Wire Wire Line
+	5250 4750 5500 4750
+Wire Wire Line
+	5500 4850 5500 5050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6229371C
+P 5500 5050
+F 0 "#PWR?" H 5500 4900 50  0001 C CNN
+F 1 "+3.3V" H 5515 5223 50  0000 C CNN
+F 2 "" H 5500 5050 50  0001 C CNN
+F 3 "" H 5500 5050 50  0001 C CNN
+	1    5500 5050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4550 5250 4550
+Wire Wire Line
+	5250 4550 5250 4750
+Connection ~ 5250 4750
+Text Label 4750 3700 0    50   ~ 0
+ADC_EN
+Text Label 4750 3400 0    50   ~ 0
+SCK
+Text Label 7800 4225 2    50   ~ 0
+DAC_EN
+Text Label 7800 4375 2    50   ~ 0
+SCK
+Text Label 7800 4525 2    50   ~ 0
+PICO
+Text Label 4750 3500 0    50   ~ 0
+POCI
+Text Label 4750 3600 0    50   ~ 0
+PICO
+$Comp
+L 74xx:74HC595 U?
+U 1 1 622DE2DD
+P 8175 2750
+F 0 "U?" H 7775 3400 50  0000 C CNN
+F 1 "74HC595" H 7875 3325 50  0000 C CNN
+F 2 "" H 8175 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf" H 8175 2750 50  0001 C CNN
+	1    8175 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 2800 9025 2800
+Wire Wire Line
+	9025 2800 9025 2350
+Wire Wire Line
+	9025 2350 8575 2350
+Wire Wire Line
+	8575 2450 9000 2450
+Wire Wire Line
+	9000 2450 9000 3000
+Wire Wire Line
+	9000 3000 9075 3000
+Wire Wire Line
+	9075 3200 8950 3200
+Wire Wire Line
+	8950 3200 8950 2550
+Wire Wire Line
+	8950 2550 8575 2550
+Wire Wire Line
+	9075 3400 8875 3400
+Wire Wire Line
+	8875 3400 8875 2650
+Wire Wire Line
+	8875 2650 8575 2650
+NoConn ~ 8575 3050
+NoConn ~ 8575 2950
+NoConn ~ 8575 2850
+NoConn ~ 8575 2750
+NoConn ~ 8575 3250
+Text Label 7775 2850 2    50   ~ 0
+GATE_OUT_EN
+Text Label 7775 2550 2    50   ~ 0
+SCK
+Text Label 7775 2350 2    50   ~ 0
+PICO
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6231CC85
+P 8175 2150
+F 0 "#PWR?" H 8175 2000 50  0001 C CNN
+F 1 "+3.3V" H 8190 2323 50  0000 C CNN
+F 2 "" H 8175 2150 50  0001 C CNN
+F 3 "" H 8175 2150 50  0001 C CNN
+	1    8175 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 6231F932
+P 8175 3450
+F 0 "#PWR?" H 8175 3200 50  0001 C CNN
+F 1 "GNDD" H 8179 3295 50  0000 C CNN
+F 2 "" H 8175 3450 50  0001 C CNN
+F 3 "" H 8175 3450 50  0001 C CNN
+	1    8175 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 3450 7775 3450
+Wire Wire Line
+	7775 3450 7775 2950
+Connection ~ 8175 3450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62327D6B
+P 7775 2650
+F 0 "#PWR?" H 7775 2500 50  0001 C CNN
+F 1 "+3.3V" V 7790 2778 50  0000 L CNN
+F 2 "" H 7775 2650 50  0001 C CNN
+F 3 "" H 7775 2650 50  0001 C CNN
+	1    7775 2650
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

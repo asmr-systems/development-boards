@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 8 8
 Title "Big One, Little One"
 Date ""
 Rev "1"
@@ -127,10 +127,10 @@ Text Notes 4720 2420 0    50   Italic 0
 Text Notes 4720 2290 0    50   Italic 0
 8V
 $Comp
-L Device:Opamp_Quad_Generic U3
+L Device:Opamp_Quad_Generic U1
 U 3 1 6251FB19
 P 3965 4745
-F 0 "U3" H 3965 5112 50  0000 C CNN
+F 0 "U1" H 3965 5112 50  0000 C CNN
 F 1 "LM324" H 3965 5021 50  0000 C CNN
 F 2 "" H 3965 4745 50  0001 C CNN
 F 3 "~" H 3965 4745 50  0001 C CNN
@@ -251,10 +251,10 @@ Text Notes 4720 4570 0    50   Italic 0
 Text Notes 4720 4440 0    50   Italic 0
 8V
 $Comp
-L Device:Opamp_Quad_Generic U3
+L Device:Opamp_Quad_Generic U1
 U 2 1 62522467
 P 7875 2595
-F 0 "U3" H 7875 2962 50  0000 C CNN
+F 0 "U1" H 7875 2962 50  0000 C CNN
 F 1 "LM324" H 7875 2871 50  0000 C CNN
 F 2 "" H 7875 2595 50  0001 C CNN
 F 3 "~" H 7875 2595 50  0001 C CNN
@@ -375,10 +375,10 @@ Text Notes 8630 2420 0    50   Italic 0
 Text Notes 8630 2290 0    50   Italic 0
 8V
 $Comp
-L Device:Opamp_Quad_Generic U3
+L Device:Opamp_Quad_Generic U1
 U 4 1 62526000
 P 7875 4745
-F 0 "U3" H 7875 5112 50  0000 C CNN
+F 0 "U1" H 7875 5112 50  0000 C CNN
 F 1 "LM324" H 7875 5021 50  0000 C CNN
 F 2 "" H 7875 4745 50  0001 C CNN
 F 3 "~" H 7875 4745 50  0001 C CNN
@@ -499,7 +499,7 @@ Text Notes 8630 4570 0    50   Italic 0
 Text Notes 8630 4440 0    50   Italic 0
 8V
 $Bitmap
-Pos 5700 3800
+Pos 5725 6075
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 FA 00 00 00 F6 08 02 00 00 00 B1 C2 D2 
@@ -4715,5 +4715,38 @@ F 2 "" V 3355 2485 50  0001 C CNN
 F 3 "~" H 3315 2495 50  0001 C CNN
 	1    3315 2495
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:Opamp_Quad_Generic U1
+U 5 1 62D02F58
+P 5850 3675
+F 0 "U1" H 5900 3750 50  0000 C CNN
+F 1 "LM324" H 5950 3625 50  0000 C CNN
+F 2 "" H 5850 3675 50  0001 C CNN
+F 3 "~" H 5850 3675 50  0001 C CNN
+	5    5850 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR090
+U 1 1 62D0467F
+P 5750 3375
+F 0 "#PWR090" H 5750 3225 50  0001 C CNN
+F 1 "+12V" H 5765 3548 50  0000 C CNN
+F 2 "" H 5750 3375 50  0001 C CNN
+F 3 "" H 5750 3375 50  0001 C CNN
+	1    5750 3375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR091
+U 1 1 62D1A10C
+P 5750 3975
+F 0 "#PWR091" H 5750 4075 50  0001 C CNN
+F 1 "-12V" H 5765 4148 50  0000 C CNN
+F 2 "" H 5750 3975 50  0001 C CNN
+F 3 "" H 5750 3975 50  0001 C CNN
+	1    5750 3975
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

@@ -7487,14 +7487,14 @@ AREF_-10V
 Text Label 1200 3300 2    50   ~ 0
 AREF_-10V
 $Comp
-L Amplifier_Operational:LM324 U16
-U 1 1 62786A74
+L Amplifier_Operational:LM324 U3
+U 2 1 62786A74
 P 4200 4475
-F 0 "U16" H 4275 4625 50  0000 C CNN
+F 0 "U3" H 4275 4625 50  0000 C CNN
 F 1 "LM324" H 4325 4325 50  0000 C CNN
 F 2 "" H 4150 4575 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4250 4675 50  0001 C CNN
-	1    4200 4475
+	2    4200 4475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

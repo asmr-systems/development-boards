@@ -1587,102 +1587,6 @@ A3 D1 A8 D3 E9 8A 8A 8A BC BD BD 03 03 03 61 BE 2D F0 20 4C 17 4E C3 56 B5 68 19
 1F 85 4C 80 C9 F9 18 75 9C 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L asmr-kicad:Banana_Jack J17
-U 1 1 62603C5A
-P 10975 3725
-F 0 "J17" H 11125 3650 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 3620 50  0001 C CNN
-F 2 "" H 10895 3965 50  0001 C CNN
-F 3 "" H 10895 3965 50  0001 C CNN
-F 4 "108-0907-001" H 10975 3725 50  0001 C CNN "mpn"
-	1    10975 3725
-	-1   0    0    1   
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J18
-U 1 1 62606383
-P 10975 3525
-F 0 "J18" H 11125 3450 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 3420 50  0001 C CNN
-F 2 "" H 10895 3765 50  0001 C CNN
-F 3 "" H 10895 3765 50  0001 C CNN
-F 4 "108-0907-001" H 10975 3525 50  0001 C CNN "mpn"
-	1    10975 3525
-	-1   0    0    1   
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J19
-U 1 1 626068DD
-P 10975 3325
-F 0 "J19" H 11125 3250 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 3220 50  0001 C CNN
-F 2 "" H 10895 3565 50  0001 C CNN
-F 3 "" H 10895 3565 50  0001 C CNN
-F 4 "108-0907-001" H 10975 3325 50  0001 C CNN "mpn"
-	1    10975 3325
-	-1   0    0    1   
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J20
-U 1 1 62606F6A
-P 10975 3125
-F 0 "J20" H 11125 3050 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 3020 50  0001 C CNN
-F 2 "" H 10895 3365 50  0001 C CNN
-F 3 "" H 10895 3365 50  0001 C CNN
-F 4 "108-0907-001" H 10975 3125 50  0001 C CNN "mpn"
-	1    10975 3125
-	-1   0    0    1   
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J21
-U 1 1 62613FEA
-P 10975 5125
-F 0 "J21" H 11125 5050 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 5020 50  0001 C CNN
-F 2 "" H 10895 5365 50  0001 C CNN
-F 3 "" H 10895 5365 50  0001 C CNN
-F 4 "108-0907-001" H 10975 5125 50  0001 C CNN "mpn"
-	1    10975 5125
-	-1   0    0    1   
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J22
-U 1 1 626147E2
-P 10975 4875
-F 0 "J22" H 11125 4800 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 4770 50  0001 C CNN
-F 2 "" H 10895 5115 50  0001 C CNN
-F 3 "" H 10895 5115 50  0001 C CNN
-F 4 "108-0907-001" H 10975 4875 50  0001 C CNN "mpn"
-	1    10975 4875
-	-1   0    0    1   
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J23
-U 1 1 62614F24
-P 10975 4625
-F 0 "J23" H 11125 4550 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 4520 50  0001 C CNN
-F 2 "" H 10895 4865 50  0001 C CNN
-F 3 "" H 10895 4865 50  0001 C CNN
-F 4 "108-0907-001" H 10975 4625 50  0001 C CNN "mpn"
-	1    10975 4625
-	-1   0    0    1   
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J24
-U 1 1 6261589B
-P 10975 4375
-F 0 "J24" H 11125 4300 50  0000 C CNN
-F 1 "Banana_Jack" H 10965 4270 50  0001 C CNN
-F 2 "" H 10895 4615 50  0001 C CNN
-F 3 "" H 10895 4615 50  0001 C CNN
-F 4 "108-0907-001" H 10975 4375 50  0001 C CNN "mpn"
-	1    10975 4375
-	-1   0    0    1   
-$EndComp
 $Sheet
 S 1200 3700 1250 1150
 U 6289AED7
@@ -1712,102 +1616,6 @@ F7 "GATE_3V3_2" O R 2450 5650 50
 F8 "GATE_IN_4" I L 1250 6050 50 
 F9 "GATE_3V3_4" O R 2450 6050 50 
 $EndSheet
-$Comp
-L asmr-kicad:Banana_Jack J5
-U 1 1 628A1F9C
-P 950 3900
-F 0 "J5" H 750 4000 50  0000 C CNN
-F 1 "Banana_Jack" H 940 3795 50  0001 C CNN
-F 2 "" H 870 4140 50  0001 C CNN
-F 3 "" H 870 4140 50  0001 C CNN
-F 4 "108-0907-001" H 950 3900 50  0001 C CNN "mpn"
-	1    950  3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J6
-U 1 1 628A3699
-P 950 4150
-F 0 "J6" H 750 4250 50  0000 C CNN
-F 1 "Banana_Jack" H 940 4045 50  0001 C CNN
-F 2 "" H 870 4390 50  0001 C CNN
-F 3 "" H 870 4390 50  0001 C CNN
-F 4 "108-0907-001" H 950 4150 50  0001 C CNN "mpn"
-	1    950  4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J7
-U 1 1 628A39A8
-P 950 4350
-F 0 "J7" H 750 4450 50  0000 C CNN
-F 1 "Banana_Jack" H 940 4245 50  0001 C CNN
-F 2 "" H 870 4590 50  0001 C CNN
-F 3 "" H 870 4590 50  0001 C CNN
-F 4 "108-0907-001" H 950 4350 50  0001 C CNN "mpn"
-	1    950  4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J8
-U 1 1 628A3D5C
-P 950 4550
-F 0 "J8" H 750 4650 50  0000 C CNN
-F 1 "Banana_Jack" H 940 4445 50  0001 C CNN
-F 2 "" H 870 4790 50  0001 C CNN
-F 3 "" H 870 4790 50  0001 C CNN
-F 4 "108-0907-001" H 950 4550 50  0001 C CNN "mpn"
-	1    950  4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J9
-U 1 1 628A494C
-P 1000 5450
-F 0 "J9" H 800 5550 50  0000 C CNN
-F 1 "Banana_Jack" H 990 5345 50  0001 C CNN
-F 2 "" H 920 5690 50  0001 C CNN
-F 3 "" H 920 5690 50  0001 C CNN
-F 4 "108-0907-001" H 1000 5450 50  0001 C CNN "mpn"
-	1    1000 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J10
-U 1 1 628A4E8C
-P 1000 5650
-F 0 "J10" H 800 5750 50  0000 C CNN
-F 1 "Banana_Jack" H 990 5545 50  0001 C CNN
-F 2 "" H 920 5890 50  0001 C CNN
-F 3 "" H 920 5890 50  0001 C CNN
-F 4 "108-0907-001" H 1000 5650 50  0001 C CNN "mpn"
-	1    1000 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J11
-U 1 1 628A54FA
-P 1000 5850
-F 0 "J11" H 800 5950 50  0000 C CNN
-F 1 "Banana_Jack" H 990 5745 50  0001 C CNN
-F 2 "" H 920 6090 50  0001 C CNN
-F 3 "" H 920 6090 50  0001 C CNN
-F 4 "108-0907-001" H 1000 5850 50  0001 C CNN "mpn"
-	1    1000 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J12
-U 1 1 628A59D4
-P 1000 6050
-F 0 "J12" H 800 6150 50  0000 C CNN
-F 1 "Banana_Jack" H 990 5945 50  0001 C CNN
-F 2 "" H 920 6290 50  0001 C CNN
-F 3 "" H 920 6290 50  0001 C CNN
-F 4 "108-0907-001" H 1000 6050 50  0001 C CNN "mpn"
-	1    1000 6050
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 1200 2250 1250 1150
 U 628AE93F
@@ -1823,54 +1631,6 @@ F8 "cv_3v3_3" O R 2450 2900 50
 F9 "cv_in_4" O L 1200 3100 50 
 F10 "cv_3v3_4" O R 2450 3100 50 
 $EndSheet
-$Comp
-L asmr-kicad:Banana_Jack J1
-U 1 1 628AE945
-P 950 2450
-F 0 "J1" H 750 2550 50  0000 C CNN
-F 1 "Banana_Jack" H 940 2345 50  0001 C CNN
-F 2 "" H 870 2690 50  0001 C CNN
-F 3 "" H 870 2690 50  0001 C CNN
-F 4 "108-0907-001" H 950 2450 50  0001 C CNN "mpn"
-	1    950  2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J2
-U 1 1 628AE94B
-P 950 2700
-F 0 "J2" H 750 2800 50  0000 C CNN
-F 1 "Banana_Jack" H 940 2595 50  0001 C CNN
-F 2 "" H 870 2940 50  0001 C CNN
-F 3 "" H 870 2940 50  0001 C CNN
-F 4 "108-0907-001" H 950 2700 50  0001 C CNN "mpn"
-	1    950  2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J3
-U 1 1 628AE951
-P 950 2900
-F 0 "J3" H 750 3000 50  0000 C CNN
-F 1 "Banana_Jack" H 940 2795 50  0001 C CNN
-F 2 "" H 870 3140 50  0001 C CNN
-F 3 "" H 870 3140 50  0001 C CNN
-F 4 "108-0907-001" H 950 2900 50  0001 C CNN "mpn"
-	1    950  2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J4
-U 1 1 628AE957
-P 950 3100
-F 0 "J4" H 750 3200 50  0000 C CNN
-F 1 "Banana_Jack" H 940 2995 50  0001 C CNN
-F 2 "" H 870 3340 50  0001 C CNN
-F 3 "" H 870 3340 50  0001 C CNN
-F 4 "108-0907-001" H 950 3100 50  0001 C CNN "mpn"
-	1    950  3100
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 1250 6550 1200 950 
 U 628B706A
@@ -1885,54 +1645,6 @@ F7 "GATE_3V3_2" O R 2450 6900 50
 F8 "GATE_IN_4" I L 1250 7300 50 
 F9 "GATE_3V3_4" O R 2450 7300 50 
 $EndSheet
-$Comp
-L asmr-kicad:Banana_Jack J13
-U 1 1 628B7070
-P 1000 6700
-F 0 "J13" H 800 6800 50  0000 C CNN
-F 1 "Banana_Jack" H 990 6595 50  0001 C CNN
-F 2 "" H 920 6940 50  0001 C CNN
-F 3 "" H 920 6940 50  0001 C CNN
-F 4 "108-0907-001" H 1000 6700 50  0001 C CNN "mpn"
-	1    1000 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J14
-U 1 1 628B7076
-P 1000 6900
-F 0 "J14" H 800 7000 50  0000 C CNN
-F 1 "Banana_Jack" H 990 6795 50  0001 C CNN
-F 2 "" H 920 7140 50  0001 C CNN
-F 3 "" H 920 7140 50  0001 C CNN
-F 4 "108-0907-001" H 1000 6900 50  0001 C CNN "mpn"
-	1    1000 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J15
-U 1 1 628B707C
-P 1000 7100
-F 0 "J15" H 800 7200 50  0000 C CNN
-F 1 "Banana_Jack" H 990 6995 50  0001 C CNN
-F 2 "" H 920 7340 50  0001 C CNN
-F 3 "" H 920 7340 50  0001 C CNN
-F 4 "108-0907-001" H 1000 7100 50  0001 C CNN "mpn"
-	1    1000 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J16
-U 1 1 628B7082
-P 1000 7300
-F 0 "J16" H 800 7400 50  0000 C CNN
-F 1 "Banana_Jack" H 990 7195 50  0001 C CNN
-F 2 "" H 920 7540 50  0001 C CNN
-F 3 "" H 920 7540 50  0001 C CNN
-F 4 "108-0907-001" H 1000 7300 50  0001 C CNN "mpn"
-	1    1000 7300
-	1    0    0    -1  
-$EndComp
 $Comp
 L asmr-kicad:Eurorack_Power_Conn_2x5_IDC_Pin_Box_Header_2.5mm J25
 U 1 1 61FC87F9
@@ -2648,54 +2360,6 @@ F7 "GATE_3V3_2" O R 6650 5950 50
 F8 "GATE_IN_4" I L 5450 6350 50 
 F9 "GATE_3V3_4" O R 6650 6350 50 
 $EndSheet
-$Comp
-L asmr-kicad:Banana_Jack J26
-U 1 1 6236F531
-P 5200 5750
-F 0 "J26" H 5000 5850 50  0000 C CNN
-F 1 "Banana_Jack" H 5190 5645 50  0001 C CNN
-F 2 "" H 5120 5990 50  0001 C CNN
-F 3 "" H 5120 5990 50  0001 C CNN
-F 4 "108-0907-001" H 5200 5750 50  0001 C CNN "mpn"
-	1    5200 5750
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J27
-U 1 1 6236F537
-P 5200 5950
-F 0 "J27" H 5000 6050 50  0000 C CNN
-F 1 "Banana_Jack" H 5190 5845 50  0001 C CNN
-F 2 "" H 5120 6190 50  0001 C CNN
-F 3 "" H 5120 6190 50  0001 C CNN
-F 4 "108-0907-001" H 5200 5950 50  0001 C CNN "mpn"
-	1    5200 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J28
-U 1 1 6236F53D
-P 5200 6150
-F 0 "J28" H 5000 6250 50  0000 C CNN
-F 1 "Banana_Jack" H 5190 6045 50  0001 C CNN
-F 2 "" H 5120 6390 50  0001 C CNN
-F 3 "" H 5120 6390 50  0001 C CNN
-F 4 "108-0907-001" H 5200 6150 50  0001 C CNN "mpn"
-	1    5200 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L asmr-kicad:Banana_Jack J29
-U 1 1 6236F543
-P 5200 6350
-F 0 "J29" H 5000 6450 50  0000 C CNN
-F 1 "Banana_Jack" H 5190 6245 50  0001 C CNN
-F 2 "" H 5120 6590 50  0001 C CNN
-F 3 "" H 5120 6590 50  0001 C CNN
-F 4 "108-0907-001" H 5200 6350 50  0001 C CNN "mpn"
-	1    5200 6350
-	1    0    0    -1  
-$EndComp
 Text Label 7875 5775 0    50   ~ 0
 POCI
 Text Label 6875 6975 2    50   ~ 0
@@ -8071,4 +7735,249 @@ Wire Wire Line
 Connection ~ 9450 2975
 Wire Wire Line
 	9450 2975 9675 2975
+$Comp
+L Connector:Conn_01x04_Female J4
+U 1 1 62F1943E
+P 800 2775
+F 0 "J4" H 692 2968 50  0000 C CNN
+F 1 "header" H 692 2441 50  0001 C CNN
+F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 800 2775 50  0001 C CNN
+F 3 "~" H 800 2775 50  0001 C CNN
+	1    800  2775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 62F36860
+P 675 4175
+F 0 "J1" H 567 4368 50  0000 C CNN
+F 1 "header" H 567 3841 50  0001 C CNN
+F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 675 4175 50  0001 C CNN
+F 3 "~" H 675 4175 50  0001 C CNN
+	1    675  4175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 62F43860
+P 750 5700
+F 0 "J3" H 642 5893 50  0000 C CNN
+F 1 "header" H 642 5366 50  0001 C CNN
+F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 750 5700 50  0001 C CNN
+F 3 "~" H 750 5700 50  0001 C CNN
+	1    750  5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 62F5175C
+P 725 6975
+F 0 "J2" H 617 7168 50  0000 C CNN
+F 1 "header" H 617 6641 50  0001 C CNN
+F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 725 6975 50  0001 C CNN
+F 3 "~" H 725 6975 50  0001 C CNN
+	1    725  6975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 62F61E22
+P 5050 6025
+F 0 "J5" H 4942 6218 50  0000 C CNN
+F 1 "header" H 4942 5691 50  0001 C CNN
+F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 5050 6025 50  0001 C CNN
+F 3 "~" H 5050 6025 50  0001 C CNN
+	1    5050 6025
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J6
+U 1 1 62F75EF8
+P 11125 3350
+F 0 "J6" H 11153 3280 50  0000 L CNN
+F 1 "header" H 11017 3016 50  0001 C CNN
+F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 11125 3350 50  0001 C CNN
+F 3 "~" H 11125 3350 50  0001 C CNN
+	1    11125 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J7
+U 1 1 62F91F6B
+P 11125 4675
+F 0 "J7" H 11153 4605 50  0000 L CNN
+F 1 "header" H 11017 4341 50  0001 C CNN
+F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 11125 4675 50  0001 C CNN
+F 3 "~" H 11125 4675 50  0001 C CNN
+	1    11125 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 4575 10825 4575
+Wire Wire Line
+	10825 4575 10825 4375
+Wire Wire Line
+	10825 4375 10725 4375
+Wire Wire Line
+	10725 4625 10825 4625
+Wire Wire Line
+	10825 4625 10825 4675
+Wire Wire Line
+	10825 4675 10925 4675
+Wire Wire Line
+	10925 4775 10800 4775
+Wire Wire Line
+	10800 4775 10800 4875
+Wire Wire Line
+	10800 4875 10725 4875
+Wire Wire Line
+	10925 4875 10875 4875
+Wire Wire Line
+	10875 4875 10875 5125
+Wire Wire Line
+	10875 5125 10725 5125
+Wire Wire Line
+	10925 3250 10850 3250
+Wire Wire Line
+	10850 3250 10850 3125
+Wire Wire Line
+	10850 3125 10725 3125
+Wire Wire Line
+	10725 3325 10825 3325
+Wire Wire Line
+	10825 3325 10825 3350
+Wire Wire Line
+	10825 3350 10925 3350
+Wire Wire Line
+	10925 3450 10825 3450
+Wire Wire Line
+	10825 3450 10825 3525
+Wire Wire Line
+	10825 3525 10725 3525
+Wire Wire Line
+	10925 3550 10875 3550
+Wire Wire Line
+	10875 3550 10875 3725
+Wire Wire Line
+	10875 3725 10725 3725
+Wire Wire Line
+	5250 5925 5300 5925
+Wire Wire Line
+	5300 5925 5300 5750
+Wire Wire Line
+	5300 5750 5450 5750
+Wire Wire Line
+	5250 6025 5300 6025
+Wire Wire Line
+	5300 6025 5300 5950
+Wire Wire Line
+	5300 5950 5450 5950
+Wire Wire Line
+	5250 6125 5325 6125
+Wire Wire Line
+	5325 6125 5325 6150
+Wire Wire Line
+	5325 6150 5450 6150
+Wire Wire Line
+	5250 6225 5325 6225
+Wire Wire Line
+	5325 6225 5325 6350
+Wire Wire Line
+	5325 6350 5450 6350
+Wire Wire Line
+	925  6875 1000 6875
+Wire Wire Line
+	1000 6875 1000 6700
+Wire Wire Line
+	1000 6700 1250 6700
+Wire Wire Line
+	925  6975 1050 6975
+Wire Wire Line
+	1050 6975 1050 6900
+Wire Wire Line
+	1050 6900 1250 6900
+Wire Wire Line
+	925  7075 1050 7075
+Wire Wire Line
+	1050 7075 1050 7100
+Wire Wire Line
+	1050 7100 1250 7100
+Wire Wire Line
+	925  7175 1075 7175
+Wire Wire Line
+	1075 7175 1075 7300
+Wire Wire Line
+	1075 7300 1250 7300
+Wire Wire Line
+	950  5600 1025 5600
+Wire Wire Line
+	1025 5600 1025 5450
+Wire Wire Line
+	1025 5450 1250 5450
+Wire Wire Line
+	950  5700 1025 5700
+Wire Wire Line
+	1025 5700 1025 5650
+Wire Wire Line
+	1025 5650 1250 5650
+Wire Wire Line
+	950  5800 1050 5800
+Wire Wire Line
+	1050 5800 1050 5850
+Wire Wire Line
+	1050 5850 1250 5850
+Wire Wire Line
+	950  5900 1050 5900
+Wire Wire Line
+	1050 5900 1050 6050
+Wire Wire Line
+	1050 6050 1250 6050
+Wire Wire Line
+	875  4075 950  4075
+Wire Wire Line
+	950  4075 950  3900
+Wire Wire Line
+	950  3900 1200 3900
+Wire Wire Line
+	875  4175 1000 4175
+Wire Wire Line
+	1000 4175 1000 4150
+Wire Wire Line
+	1000 4150 1200 4150
+Wire Wire Line
+	875  4275 1000 4275
+Wire Wire Line
+	1000 4275 1000 4350
+Wire Wire Line
+	1000 4350 1200 4350
+Wire Wire Line
+	875  4375 950  4375
+Wire Wire Line
+	950  4375 950  4550
+Wire Wire Line
+	950  4550 1200 4550
+Wire Wire Line
+	1000 2675 1050 2675
+Wire Wire Line
+	1050 2675 1050 2450
+Wire Wire Line
+	1050 2450 1200 2450
+Wire Wire Line
+	1000 2775 1100 2775
+Wire Wire Line
+	1100 2775 1100 2700
+Wire Wire Line
+	1100 2700 1200 2700
+Wire Wire Line
+	1000 2875 1075 2875
+Wire Wire Line
+	1075 2875 1075 2900
+Wire Wire Line
+	1075 2900 1200 2900
+Wire Wire Line
+	1000 2975 1075 2975
+Wire Wire Line
+	1075 2975 1075 3100
+Wire Wire Line
+	1075 3100 1200 3100
 $EndSCHEMATC

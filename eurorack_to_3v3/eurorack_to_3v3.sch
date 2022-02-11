@@ -7739,8 +7739,8 @@ $Comp
 L Connector:Conn_01x04_Female J4
 U 1 1 62F1943E
 P 800 2775
-F 0 "J4" H 692 2968 50  0000 C CNN
-F 1 "header" H 692 2441 50  0001 C CNN
+F 0 "J4" H 692 3060 50  0000 C CNN
+F 1 "cv_in_1" H 692 2969 50  0000 C CNN
 F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 800 2775 50  0001 C CNN
 F 3 "~" H 800 2775 50  0001 C CNN
 	1    800  2775
@@ -7750,8 +7750,8 @@ $Comp
 L Connector:Conn_01x04_Female J1
 U 1 1 62F36860
 P 675 4175
-F 0 "J1" H 567 4368 50  0000 C CNN
-F 1 "header" H 567 3841 50  0001 C CNN
+F 0 "J1" H 567 4460 50  0000 C CNN
+F 1 "cv_in_2" H 567 4369 50  0000 C CNN
 F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 675 4175 50  0001 C CNN
 F 3 "~" H 675 4175 50  0001 C CNN
 	1    675  4175
@@ -7761,8 +7761,8 @@ $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 62F43860
 P 750 5700
-F 0 "J3" H 642 5893 50  0000 C CNN
-F 1 "header" H 642 5366 50  0001 C CNN
+F 0 "J3" H 642 5985 50  0000 C CNN
+F 1 "gate_in_1" H 642 5894 50  0000 C CNN
 F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 750 5700 50  0001 C CNN
 F 3 "~" H 750 5700 50  0001 C CNN
 	1    750  5700
@@ -7772,8 +7772,8 @@ $Comp
 L Connector:Conn_01x04_Female J2
 U 1 1 62F5175C
 P 725 6975
-F 0 "J2" H 617 7168 50  0000 C CNN
-F 1 "header" H 617 6641 50  0001 C CNN
+F 0 "J2" H 617 7260 50  0000 C CNN
+F 1 "gate_in_2" H 617 7169 50  0000 C CNN
 F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 725 6975 50  0001 C CNN
 F 3 "~" H 725 6975 50  0001 C CNN
 	1    725  6975
@@ -7783,8 +7783,8 @@ $Comp
 L Connector:Conn_01x04_Female J5
 U 1 1 62F61E22
 P 5050 6025
-F 0 "J5" H 4942 6218 50  0000 C CNN
-F 1 "header" H 4942 5691 50  0001 C CNN
+F 0 "J5" H 4942 6310 50  0000 C CNN
+F 1 "gate_in_3" H 5025 5775 50  0000 C CNN
 F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 5050 6025 50  0001 C CNN
 F 3 "~" H 5050 6025 50  0001 C CNN
 	1    5050 6025
@@ -7794,8 +7794,8 @@ $Comp
 L Connector:Conn_01x04_Female J6
 U 1 1 62F75EF8
 P 11125 3350
-F 0 "J6" H 11153 3280 50  0000 L CNN
-F 1 "header" H 11017 3016 50  0001 C CNN
+F 0 "J6" H 10925 3100 50  0000 L CNN
+F 1 "gate_out" H 10875 3550 50  0000 L CNN
 F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 11125 3350 50  0001 C CNN
 F 3 "~" H 11125 3350 50  0001 C CNN
 	1    11125 3350
@@ -7805,8 +7805,8 @@ $Comp
 L Connector:Conn_01x04_Female J7
 U 1 1 62F91F6B
 P 11125 4675
-F 0 "J7" H 11153 4605 50  0000 L CNN
-F 1 "header" H 11017 4341 50  0001 C CNN
+F 0 "J7" H 10950 4400 50  0000 L CNN
+F 1 "cv_out" H 11017 4341 50  0000 C CNN
 F 2 "ASMR_footprints:Connector_TE_AMP_HPI-1735446-4_1x04_P2.00mm_Vertical" H 11125 4675 50  0001 C CNN
 F 3 "~" H 11125 4675 50  0001 C CNN
 	1    11125 4675
@@ -7980,4 +7980,48 @@ Wire Wire Line
 	1075 2975 1075 3100
 Wire Wire Line
 	1075 3100 1200 3100
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 63219CE5
+P 8850 6350
+F 0 "H1" H 8950 6396 50  0000 L CNN
+F 1 "MountingHole" H 8950 6305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 8850 6350 50  0001 C CNN
+F 3 "~" H 8850 6350 50  0001 C CNN
+	1    8850 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6327F702
+P 8850 6575
+F 0 "H2" H 8950 6621 50  0000 L CNN
+F 1 "MountingHole" H 8950 6530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 8850 6575 50  0001 C CNN
+F 3 "~" H 8850 6575 50  0001 C CNN
+	1    8850 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 632984EC
+P 8850 6775
+F 0 "H3" H 8950 6821 50  0000 L CNN
+F 1 "MountingHole" H 8950 6730 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 8850 6775 50  0001 C CNN
+F 3 "~" H 8850 6775 50  0001 C CNN
+	1    8850 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 632B1224
+P 8850 6975
+F 0 "H4" H 8950 7021 50  0000 L CNN
+F 1 "MountingHole" H 8950 6930 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 8850 6975 50  0001 C CNN
+F 3 "~" H 8850 6975 50  0001 C CNN
+	1    8850 6975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -8013,15 +8013,4 @@ F 3 "~" H 8850 6775 50  0001 C CNN
 	1    8850 6775
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 632B1224
-P 8850 6975
-F 0 "H4" H 8950 7021 50  0000 L CNN
-F 1 "MountingHole" H 8950 6930 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.5mm" H 8850 6975 50  0001 C CNN
-F 3 "~" H 8850 6975 50  0001 C CNN
-	1    8850 6975
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

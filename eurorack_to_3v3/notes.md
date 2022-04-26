@@ -1,5 +1,6 @@
 # Notes
 
+
 ## Debugging 2022.04.26
 Still can't get the BH2227 DAC to work.
 Strangely, the 74HC595 Output Registers are working, but the opamp circuit to amplify

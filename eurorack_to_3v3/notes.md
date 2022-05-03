@@ -11,7 +11,7 @@
 ** add to schematic [DONE]
 ** update in pcb
 * replace 74HC165 with Tri-State equivalent: 74HC589
-** add to schematic
+** add to schematic [DONE]
 ** update in pcb
 
 ## Debugging 2022.04.29

@@ -3,7 +3,7 @@
 ## V2 Refactoring
 * fix gate input buffer circuit (remove extra resistor going from input to MOSFET gate)
 ** add to schematic [DONE]
-** update in pcb
+** update in pcb [DONE]
 * fix CV Output circuit: swap the positive and negative inputs of the opamps (stupid mistake)
 ** add to schematic [DONE]
 ** update in pcb

@@ -6,13 +6,13 @@
 ** update in pcb [DONE]
 * fix CV Output circuit: swap the positive and negative inputs of the opamps (stupid mistake)
 ** add to schematic [DONE]
-** update in pcb
+** update in pcb [DONE]
 * consider adding a line to Output Enable (OE) (active LOW) to 74HC137 for deselecting ALL outputs.
 ** add to schematic [DONE]
-** update in pcb
+** update in pcb [DONE]
 * replace 74HC165 with Tri-State equivalent: 74HC589
 ** add to schematic [DONE]
-** update in pcb
+** update in pcb [DONE]
 
 ## Debugging 2022.04.29
 So the BH2227 just wasnt fully soldered on. now it works. However, the design of the 3v3_cv_to_12v_cv circuit fragment is flawed.

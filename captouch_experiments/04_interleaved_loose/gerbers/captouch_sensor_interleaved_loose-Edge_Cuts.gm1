@@ -1,0 +1,26 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.8+dfsg-1~bpo11+1*
+G04 #@! TF.CreationDate,2023-03-24T18:54:06-04:00*
+G04 #@! TF.ProjectId,captouch_sensor_interleaved_loose,63617074-6f75-4636-985f-73656e736f72,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 6.0.8+dfsg-1~bpo11+1) date 2023-03-24 18:54:06*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X42175000Y-47000000D02*
+X270050000Y-47000000D01*
+X270050000Y-47000000D02*
+X270050000Y-113550000D01*
+X270050000Y-113550000D02*
+X42175000Y-113550000D01*
+X42175000Y-113550000D02*
+X42175000Y-47000000D01*
+M02*

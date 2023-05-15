@@ -1496,7 +1496,7 @@
     (uuid b6156c27-f6bf-48ba-a852-1e97e3507fa3)
     (property "Reference" "U1" (id 0) (at 146.05 53.501 0))
     (property "Value" "captouch_8x32_grid" (id 1) (at 146.05 56.0379 0))
-    (property "Footprint" "ASMR_footprints:captouch_8x32_padded_interleaved" (id 2) (at 140.335 57.15 0)
+    (property "Footprint" "ASMR_footprints:captouch_8x32_padded_interleaved_loose" (id 2) (at 140.335 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 140.335 57.15 0)
@@ -1556,7 +1556,7 @@
       (reference "J2") (unit 1) (value "Conn_01x32_Male") (footprint "ASMR_footprints:Conn_FFC_1x32_0.5mm_Molex_5019513210")
     )
     (path "/b6156c27-f6bf-48ba-a852-1e97e3507fa3"
-      (reference "U1") (unit 1) (value "captouch_8x32_grid") (footprint "ASMR_footprints:captouch_8x32_padded_interleaved")
+      (reference "U1") (unit 1) (value "captouch_8x32_grid") (footprint "ASMR_footprints:captouch_8x32_padded_interleaved_loose")
     )
   )
 )
